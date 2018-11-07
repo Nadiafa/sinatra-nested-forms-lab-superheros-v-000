@@ -1,4 +1,4 @@
-class helper_method
+class Hero
   attr_accessor :name, :power, :biography
   HEROES = []
   

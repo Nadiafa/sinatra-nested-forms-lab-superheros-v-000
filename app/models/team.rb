@@ -5,6 +5,7 @@ class Team
   def initialize(args)
     @name  = args[:name]
     @motto = args[:motto]
+    TEAMS << self
   end 
   
   def self.all 

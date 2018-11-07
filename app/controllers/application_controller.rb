@@ -16,6 +16,6 @@ class App < Sinatra::Base
     end 
     @heroes = Hero.all  
     
-    erb :'../views/team'
+    erb :team
   end 
 end
